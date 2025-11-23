@@ -277,7 +277,7 @@ console.log(process.env.RAJORPAY_SECRET);
 
 const {
   courseEnrollmentEmail,
-} = require("../Mail/Template/CourseEnrollmentEmail");
+} = require("../mail/Template/CourseEnrollmentEmail");
 const { paymentSuccessEmail } = require("../Mail/Template/PaymwntSuccessEmail");
 const CourseProgress = require("../Model/CourseProgress");
 
