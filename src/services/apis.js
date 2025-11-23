@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:9000/api/v1";  // it does not laoaded check***
+const BASE_URL = "https://studynotion1-6.onrender.com/api/v1";  // it does not laoaded check***
 console.log(BASE_URL);
 
 // AUTH ENDPOINTS
