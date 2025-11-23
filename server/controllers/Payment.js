@@ -278,7 +278,7 @@ console.log(process.env.RAJORPAY_SECRET);
 const {
   courseEnrollmentEmail,
 } = require("../mail/Template/CourseEnrollmentEmail");
-const { paymentSuccessEmail } = require("../Mail/Template/PaymwntSuccessEmail");
+const { paymentSuccessEmail } = require("../mail/Template/PaymwntSuccessEmail");
 const CourseProgress = require("../Model/CourseProgress");
 
 exports.capturePayment = async (req, res) => {
